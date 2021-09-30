@@ -1,4 +1,5 @@
 .vs/
 Cryptography.Service/bin/
 Cryptography.Service/obj/
-Cryptography.Serviceю.Tests/obj/
+Cryptography.Service.Tests/obj/
+Cryptography.Service.Tests/bin/

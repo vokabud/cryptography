@@ -1,4 +1,4 @@
-﻿namespace Cryptography.Service
+﻿namespace Cryptography.Service.Models
 {
     public class Key
     {

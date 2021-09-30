@@ -2,12 +2,12 @@
 {
     public interface ICoder
     {
-        int Encrypt(PublicKey publicKey, int data);
+        long Encrypt(PublicKey publicKey, long data);
 
-        string Encrypt(PublicKey publicKey, string data);
+        long Decrypt(PrivateKey publicKey, long cipher);
 
-        int Decrypt(PrivateKey publicKey, int cipher);
+        byte[] Encrypt(PublicKey publicKey, string data);
 
-        string Decrypt(PrivateKey publicKey, string data);
+        string Decrypt(PrivateKey publicKey, byte[] cipher);
     }
 }
