@@ -1,4 +1,7 @@
-﻿namespace Cryptography.Service
+﻿using Cryptography.Service.Helpers;
+using Cryptography.Service.Models;
+
+namespace Cryptography.Service
 {
     public class KeyGenerator : IKeyGenerator
     {

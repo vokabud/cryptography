@@ -1,4 +1,6 @@
-﻿namespace Cryptography.Service
+﻿using Cryptography.Service.Models;
+
+namespace Cryptography.Service
 {
     public interface ICoder
     {
